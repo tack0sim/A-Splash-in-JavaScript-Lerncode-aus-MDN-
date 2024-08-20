@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 25% auto;
+  padding: 0 5%;
+  border: solid;
+  border-radius: 10px;
+}
+
+.form input[type="number"] {
+  width: 200px;
+  margin: 5px auto;
+}
+
+.guessSubmit {
+  display: block;
+  margin: 5px auto;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
