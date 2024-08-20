@@ -10,11 +10,24 @@ body {
   padding: 0 5%;
   border: solid;
   border-radius: 10px;
+  background-color: #b2afff;
+}
+
+h1 {
+  font-family: Liberation serif;
+}
+
+p {
+  font-family: "Archivo";
 }
 
 .form input[type="number"] {
   width: 200px;
   margin: 5px auto;
+}
+
+label {
+  font-family: "Archivo";
 }
 
 .guessSubmit {
@@ -25,4 +38,15 @@ body {
 .lastResult {
   color: white;
   padding: 3px;
+}
+
+/* for mobile screens */
+@media (max-width: 480px) {
+  body {
+    min-width: 300px;
+    margin: 25% auto;
+  }
+  input [type="number"] {
+    width: 400px;
+  }
 }
