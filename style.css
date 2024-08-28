@@ -56,6 +56,6 @@ label {
   }
 
   input [type="number"] {
-    width: 400px;
+    width: 300px;
   }
 }
