@@ -8,13 +8,21 @@ body {
   min-width: 480px;
   margin: 25% auto;
   padding: 0 5%;
-  border: solid;
-  border-radius: 10px;
+
   background-color: #b2afff;
+}
+
+article {
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 6px 5px 2px rgb(60, 58, 58);
 }
 
 h1 {
   font-family: Liberation serif;
+  text-align: center;
 }
 
 p {
@@ -46,6 +54,7 @@ label {
     min-width: 300px;
     margin: 25% auto;
   }
+
   input [type="number"] {
     width: 400px;
   }
